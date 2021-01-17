@@ -22,9 +22,9 @@ One of the functionalities of Twilio’s API is that it allows users to programm
 
 In order to get an idea of the most popular COVID articles on any given day, we web-scraped the hottest posts on the [Coronavirus subreddit] (https://www.reddit.com/r/Coronavirus/top/). These posts are exclusively news articles pertaining to the COVID-19 pandemic and are updated every day based on popularity/interest. This information is conveyed on the demo above and, at the user’s discretion, can be sent via SMS to their phone.
 
-## Data and Visualizations (Separate From Demo) 
+## Data and Visualizations (Separate From Video Demo) 
 
-In order to get a scope of the scale of COVID-19, **we created a separate live, interactive Heroku dashboard on top of the work seen in the demo**. This application focuses on COVID-19 analysis on a county-by-county level. Due to time constraints, we did not get a chance to demo this additional app in the video above but **feel free to play around with it here**, [heroku app](https://tracktogether.herokuapp.com/) **(takes 5 seconds to load)**. 
+In order to get a scope of the scale of COVID-19, **we created a separate live, interactive Heroku dashboard on top of the work seen in the demo**. This application focuses on COVID-19 analysis on a county-by-county level. Due to time constraints, we did not get a chance to demo this additional app in the video above but **feel free to play around with it here: **, [heroku app](https://tracktogether.herokuapp.com/) **(takes 5 seconds to load)**. 
 
 All visualizations are interactive and can be hovered over. To start off we look at the cumulative COVID cases by county (updated in real-time) to identify hotspots across the nation. We also visualize the elderly count by U.S. county to point towards the relationship between COVID-19 cases and the density of elderly people. Lastly, we visualize the average rate of change (ROC) of COVID-19 cases since January 2020 across all 50 U.S. states. 
 
