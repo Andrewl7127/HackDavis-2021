@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 import streamlit as st
 import speech_recognition as sr
 import pyttsx3
@@ -161,7 +155,7 @@ def mobile():
     def get_message(phone):
         
         account_sid = "ACd3dbda8dd8bf0f40cec66339052a9eca"
-        auth_token  = "1e41f9b0a78696128fc21e9620669814"
+        auth_token  = "INSERT TOKEN HERE (TWILIO DEACTIVATES TOKENS THAT ARE SHARED ON PUBLIC GITHUB REPOSITORIES) "
         
         try:
             x = zipcodes.matching(code)
