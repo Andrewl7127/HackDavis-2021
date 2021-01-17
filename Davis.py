@@ -347,11 +347,11 @@ def question():
 def main():
 
     st.write("Bot: " + "Welcome to our app! Say update for an update on COVID-19 cases and deaths near you.\n" + 
-        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to your mobile device.\n" 
+        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to a mobile device.\n" 
         + " Say question to ask COVID-19 related questions to our chat bot. If at any point you would like to stop talking say exit.\n" 
         + " Say options for a repeat of the options.")
     say("Welcome to our app! Say update for an update on COVID-19 cases and deaths near you.\n" + 
-        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to your mobile device.\n" 
+        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to a mobile device.\n" 
         + " Say question to ask COVID-19 related questions to our chat bot. If at any point you would like to stop talking say exit.\n" 
         + " Say options for a repeat of the options.")
     flag = False
@@ -366,11 +366,11 @@ def main():
             else:
                 if "options".find(response) > -1:
                     st.write("Bot: " + "Welcome to our app! Say update for an update on COVID-19 cases and deaths near you.\n" + 
-        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to your mobile device.\n" 
+        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to a mobile device.\n" 
         + " Say question to ask COVID-19 related questions to our chat bot. If at any point you would like to stop talking say exit.\n" 
         + " Say options for a repeat of the options.")
                     say("Welcome to our app! Say update for an update on COVID-19 cases and deaths near you.\n" + 
-        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to your mobile device.\n" 
+        " Say news for the top 5 COVID-19 headlines Say mobile to get COVID-19 updates sent to a mobile device.\n" 
         + " Say question to ask COVID-19 related questions to our chat bot. If at any point you would like to stop talking say exit.\n" 
         + " Say options for a repeat of the options.")
                 else:
