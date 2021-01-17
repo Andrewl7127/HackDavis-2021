@@ -20,7 +20,7 @@ One of the functionalities of Twilio’s API is that it allows users to programm
 
 ## Real-time COVID news updates
 
-In order to get an idea of the most popular COVID articles on any given day, we web-scraped the hottest posts on the [Coronavirus subreddit] (https://www.reddit.com/r/Coronavirus/top/). These posts are exclusively news articles pertaining to the COVID-19 pandemic and are updated every day based on popularity/interest. This information is conveyed on the demo above and, at the user’s discretion, can be sent via SMS to their phone.
+In order to get an idea of the most popular COVID articles on any given day, we web-scraped the hottest posts on the [Coronavirus subreddit](https://www.reddit.com/r/Coronavirus/top/). These posts are exclusively news articles pertaining to the COVID-19 pandemic and are updated every day based on popularity/interest. This information is conveyed on the demo above and, at the user’s discretion, can be sent via SMS to their phone.
 
 ## Data and Visualizations (Separate From Video Demo) 
 
