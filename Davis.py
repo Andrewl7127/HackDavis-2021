@@ -124,8 +124,8 @@ def talk(message):
             return r.recognize_google(audio_text)
             
         except:
-            st.write("Bot: " + "Sorry, I did not get that")
-            say("Sorry, I did not get that")
+            st.write("Bot: " + "Sorry, I did not get that. Please try again.")
+            say("Sorry, I did not get that. Please try again.")
             talk(message)
 
 def update():
@@ -398,4 +398,3 @@ def main():
         say("I'm sorry. I don't understand what you are saying. Please try again.")
 
 main()
-
