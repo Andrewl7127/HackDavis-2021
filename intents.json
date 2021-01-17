@@ -35,17 +35,17 @@
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"],
-         "context": [""]
+         "context_set": ""
         },
         {"tag": "noanswer",
          "patterns": [],
          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
-         "context": [""]
+         "context_set": ""
         },
         {"tag": "cases",
          "patterns": ["How many new cases are there?", "How many cases are there?", "How many people have COVID-19?", "How many deaths are there?", "How many new deaths are there?", "How bad is the COVID-19 spread?"],
          "responses": [stats()],
-         "context": [""]
+         "context_set": ""
         },
    ]
 }
