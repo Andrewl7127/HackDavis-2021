@@ -16,7 +16,7 @@ Apart from using speech recognition technology to improve the accessibility of i
 
 ## Usage of Twilio’s API
 
-One of the functionalities of Twilio’s API is that it allows users to programmatically send SMS messages to different people. Using Twilio we allow the user to send **daily** SMS messages to themselves containing real-time new/cumulative COVID-19 metrics **specific to their county**. These messages are updated daily by querying from the  New York Times’ COVID-19 GitHub repository. In the event a visually impaired individual was to use our tool they can read the messages Furthermore, messages can be halted by the user when the keyword STOP is entered.
+One of the functionalities of Twilio’s API is that it allows users to programmatically send SMS messages to different people. Using Twilio we allow the user to send **daily** SMS messages to themselves containing real-time new/cumulative COVID-19 metrics **specific to their county**. These messages are updated daily by querying from the  New York Times’ COVID-19 GitHub repository. In the event, a visually impaired individual was to use our tool they can read the messages. Furthermore, messages can be halted by the user when the keyword STOP is entered.
 
 ## Real-time COVID news updates
 
@@ -26,7 +26,7 @@ In order to get an idea of the most popular COVID articles on any given day, we 
 
 In order to get a scope of the scale of COVID-19, **we created a separate live, interactive Heroku dashboard on top of the work seen in the demo**. This application focuses on COVID-19 analysis on a county-by-county level. Due to time constraints, we did not get a chance to demo this additional app in the video above but **feel free to play around with it here**, [heroku app](https://tracktogether.herokuapp.com/) **(takes 5 seconds to load)**. 
 
-All visualizations are interactive we made are interactive and can be hovered over. To start off we look at the cumulative COVID cases by county (updated in real-time) to identify hotspots across the nation. We also visualize the elderly count by U.S. county to point towards the relationship between COVID-19 cases and the density of elderly people. Lastly, we visualize the average rate of change (ROC) of COVID-19 cases since January 2020 across all 50 U.S. states. **This Average ROC information is also updated in real-time**. 
+All visualizations are interactive and can be hovered over. To start off we look at the cumulative COVID cases by county (updated in real-time) to identify hotspots across the nation. We also visualize the elderly count by U.S. county to point towards the relationship between COVID-19 cases and the density of elderly people. Lastly, we visualize the average rate of change (ROC) of COVID-19 cases since January 2020 across all 50 U.S. states. 
 
 In addition to these visualizations, we perform a novel clustering analysis of each and every county in the United States according to some user-specified metrics. The results of clustering are visualized and can be downloaded (as a CSV) for further analysis/research by the user. The beauty of this approach is that the user chooses what metrics they care about (i.e. Maskless per capita, COVID Cases per capita, Raw Total COVID Cases, etc.) and can see how different counties are ranked according to our clustering algorithm.  **The user can choose among 10 different COVID-19 metrics to cluster by, and once again all information is updated in real-time and dynamic**.
 
