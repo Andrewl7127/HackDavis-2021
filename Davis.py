@@ -161,7 +161,7 @@ def mobile():
     def get_message(phone):
         
         account_sid = "ACd3dbda8dd8bf0f40cec66339052a9eca"
-        auth_token  = "d91163cd8e1e92597d56c39560312743"
+        auth_token  = "INSERT AUTH TOKEN HERE (Private because Twilio will deactivate auth token if detected on public Github"
         
         try:
             x = zipcodes.matching(code)
