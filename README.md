@@ -34,7 +34,7 @@ All visualizations are interactive and can be hovered over. To start off, we loo
 
 In addition to these dynamic visualizations, we perform a novel clustering analysis of each and every county in the United States according to some user-specified metrics. The results of clustering are visualized and can be downloaded (as a CSV) for further analysis/research by the user. 
 
-The beauty of this approach is that the user can choose between ten COVID-19 related metrics they care about and see how different counties are ranked according to our clustering algorithm. A researcher could recognize what regions are similar in behavior (e.g. counties that are clustered by similar Maskless per capita, and ranked by COVID-19 cases per capita). **In doing so, at-risk groups (including the visually-impaired) can be informed of the dangers unique to their county (i.e. lack of ICU beds or a spike in COVID-19 deaths).**
+Users can choose between ten COVID-19 related metrics and see how different counties are ranked according to our clustering algorithm. A researcher could recognize what regions are similar in behavior (e.g. counties that are clustered by similar maskless per capita, and ranked by COVID-19 cases per capita). **At-risk groups (including the visually-impaired) often have a harder time dealing with COVID-19. Our dashboard points researchers to the different struggles and dangers across regions (i.e. lack of ICU beds or a spike in COVID-19 deaths) and can use this information to inform at-risk groups (including visually-impaired).**
 
 ## Conclusion
 
