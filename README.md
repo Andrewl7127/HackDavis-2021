@@ -22,20 +22,6 @@ One of the functionalities of Twilio’s API is that it allows users to programm
 
 In order to get an idea of the most popular COVID-19 articles on any given day, we web-scraped the hottest posts on the [Coronavirus subreddit](https://www.reddit.com/r/Coronavirus/top/). These posts are exclusively news articles pertaining to the COVID-19 pandemic and are updated every day based on popularity/interest. At the user's discretion posts can be sent via SMS to their phone - as seen in the video demo above.
 
-## Data and Visualizations (Separate From Video Demo) 
-
-After creating the bot, we wanted to take our work a step further. In order to get a scope of the scale of COVID-19, we created a **separate real-time, interactive Heroku dashboard** on top of the work seen in the demo. **This dashboard visualizes a lot of the information that is conveyed to the visually impaired in the video demo above.**
-
-Due to the 2-minute video constraint, we did not get a chance to video-demo this additional app.
-
-**Link:** https://tracktogether.herokuapp.com/ (takes 5 seconds to load) 
-
-All visualizations are interactive and can be hovered over. To start off, we look at the cumulative COVID-19 cases by county to identify hotspots across the nation. We also visualize the elderly count by U.S. county to point towards the relationship between COVID-19 cases and the density of elderly people. Lastly, we visualize the average rate of change of COVID-19 cases since January 2020 across all 50 U.S. states. 
-
-In addition to these dynamic visualizations, we perform a novel clustering analysis of each and every county in the United States according to some user-specified metrics. The results of clustering are visualized and can be downloaded (as a CSV) for further analysis/research by the user. 
-
-Users can choose between ten COVID-19 related metrics and see how different counties are ranked according to our clustering algorithm. A researcher could recognize what regions are similar in behavior (e.g. counties that are clustered by similar maskless per capita, and ranked by COVID-19 cases per capita). At-risk groups (including the visually-impaired) often have a harder time dealing with COVID-19. Our dashboard points researchers to the different struggles and dangers across regions (i.e. lack of ICU beds or a spike in COVID-19 deaths) and can **use this information to inform at-risk groups (including visually-impaired).**
-
 ## Conclusion
 
 This pandemic has demonstrated the deadly impacts of misinformation in society. Our application ensures that visually impaired individuals can **easily access verified information** about the pandemic so that they can make as **informed decisions** about their health and safety as the rest of our society. 
