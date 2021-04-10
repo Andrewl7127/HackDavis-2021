@@ -1,4 +1,4 @@
-# TrackTogether
+# Track Together
 
 Video demo: https://youtu.be/2vHRVGKcmqg
 
